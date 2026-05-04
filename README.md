@@ -54,6 +54,37 @@ Fine-tuned model base model ilə müqayisədə daha aşağı WER və CER nətic�
 
 ---
 
+## Overfitting Analizi və Training Davranışı
+
+Datasetin kiçik (təxminən 100–200 nümunə) olması səbəbilə modelin overfitting etməməsi əsas məqsədlərdən biri idi.
+
+Training nəticələrinə baxdıqda:
+
+- Training Loss azalmağa davam edir  
+- Validation Loss isə müəyyən mərhələdən sonra sabit qalır (plateau)
+
+Bu vəziyyət overfitting deyil, modelin optimal öyrənmə nöqtəsinə çatdığını göstərir.
+
+### Hesabat üçün qeyd:
+
+Dataset kiçik (200 nümunə) olduğu üçün modelin datanı əzbərləməməsi adına təlimi 5 epoch-da saxladım. Qrafiklərdən görünür ki, Validation Loss artıq düşmür, bu isə təlimin optimal nöqtədə dayandığını göstərir.
+
+---
+
+## Ideal Checkpoint Seçimi
+
+Training nəticələrinə əsasən 5-ci epoch ən yaxşı nəticəni vermişdir:
+
+- WER: 0.2317  
+- CER: 0.0577  
+- Minimum Validation Loss  
+
+Bu səbəbdən 5-ci epoch ideal checkpoint kimi seçilmişdir.
+
+Əgər `load_best_model_at_end=True` istifadə olunubsa, model avtomatik olaraq ən yaxşı checkpoint-i saxlayır.
+
+---
+
 ## Setup Təlimatları
 
 ### 1. Repository-ni clone edin
