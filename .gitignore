@@ -1,0 +1,9 @@
+# environment variables: (api)
+.env
+
+# dataset:
+az_dataset/
+
+# python cache
+__pycache__/
+*.pyc
