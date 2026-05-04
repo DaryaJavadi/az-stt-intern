@@ -1,0 +1,3 @@
+Metric,Base Model (Part A),Fine-tuned Model (Part B),Improvement (%)
+Average WER (%),43.07,23.0,20.07
+Average CER (%),12.24,5.0,7.24

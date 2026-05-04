@@ -1,0 +1,6 @@
+reference,prediction,wer,cer
+keşfiyyatci atici idi,cek fiyat catici idi,1.0,0.3333333333333333
+ovuc ici menasi da movcuddur,o ve tikcemeye nasida movcutdur,1.0,0.4285714285714285
+kend teserrufati xammali emal olunur,send teselfati qanmaliyi mal olunur,0.8,0.25
+korfezin sahilinde turkmenbaşi limani yerleşir,torvezim sahelinde duşmeyin başi limani yerleşir,0.8,0.217391304347826
+butun işler barişiq hakimi terefinden tekbaşina hell edilirdi,butun muşler qarişiq hakimek terefinden tek başina hele edilirdi,0.75,0.1147540983606557

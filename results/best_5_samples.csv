@@ -1,0 +1,6 @@
+reference,prediction,wer,cer
+şaxtali aylarda sahil eraziler donur,şaxtali aylarda sahil eraziler donur,0.0,0.0
+ikinci eserinde oktyabr inqilabinin sosial edaletsizliye ve patriarxal prinsiplere qarşi mubarize aparan tesiri gosterilir,ikinci eserinde oktyabr inqilabinin sosial edalesizliye ve patriarxal prinsiplere qarşi mubarize aparan tesiri gosterilir,0.0714285714285714,0.0081967213114754
+yalniz muharibenin sonunda rusiya abxaziyada bezi humanitar emeliyyatlar heyata kecirmişdi,yalniz muharibenin sonunda rusya abxaziyada bezi humanitar emeliyyatlar heyata kecirmişdi,0.1,0.0111111111111111
+proqram teminati muhendisliyi dinamik sekilde deyisen pese sahesidir,program teminati muhendisliyi dinamik sekilde deyisen pese sahesidir,0.125,0.0147058823529411
+tacik xalqinin kulinariya inceseneti esrler boyu formalaşmişdir,taciq xalqinin kulinariya inceseneti esrler boyu formalaşmişdir,0.1428571428571428,0.0158730158730158
